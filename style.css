@@ -1,0 +1,99 @@
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+.quiz-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+.question {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+.option {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+.option:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+.timer {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+.result{
+            font-size: 1.5em;
+            color: #4caf50;
+        }
+.restart-btn
+ {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+         }
+.restart-btn:hover {
+    background-color: #0056b3;
+ }
+.leaderboard-container{
+    display: none;
+}
+.leaderboard h2{
+    margin-bottom: 10px;
+}
+.leaderboard ul{
+    list-style-type: none;
+    padding: 0;
+}
+.leaderboard li{
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.back-btn{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-btn:hover{
+    background-color: #0056b3;
+}
+.username-input{
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
